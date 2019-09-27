@@ -1,0 +1,24 @@
+{
+  "format": "dz",
+  "width": 2805,
+  "height": 1600,
+  "channels": 4,
+  "premultiplied": false,
+  "id": "koholint",
+  "originalFileName": "koholint.png",
+  "tileImg": "flyers/koholint/tiles/{z}/{x}_{y}.png",
+  "originalImg": "flyers/koholint/original.png",
+  "thumbImg_w100": "flyers/koholint/thumb_w100.png",
+  "thumbImg_w200": "flyers/koholint/thumb_w200.png",
+  "thumbImg_h150": "flyers/koholint/thumb_h150.png",
+  "thumbImg_h300": "flyers/koholint/thumb_h300.png",
+  "minZoom": 8,
+  "maxZoom": 12,
+  "tileSizes": {
+    "8": [ 0, 0 ],
+    "9": [ 1, 0 ],
+    "10": [ 2, 1 ],
+    "11": [ 5, 3 ],
+    "12": [ 10, 6 ]
+  }
+}
