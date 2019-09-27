@@ -9,6 +9,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* background-image: url(./pattern-brown-tri.png); */
+  background: #323639;
+}
+.leaflet-container {
+  /* background: #ddd; */
+  background: transparent !important;
 }
 
 code {
