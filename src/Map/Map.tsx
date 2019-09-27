@@ -22,7 +22,7 @@ function MapInner({ L, deepzoom }: IProps) {
   const container = useRef<any>();
 
   // get container size info
-  const rect: any = useContainerRect(root, ['width', 'height']);
+  const rect: any = useContainerRect(container, ['width', 'height']);
   const [width, height] = useMemo(
     () =>
       rect && rect.width && rect.height ? [rect.width, rect.height] : [0, 0],
@@ -95,7 +95,9 @@ function MapInner({ L, deepzoom }: IProps) {
           .replace(/{x}/, x)
           .replace(/{y}/, y);
 
-          if (x === 0 || y === 0 || x === maxX - 1 || y === maxY - 1) {
+          console.log({maxX, maxY}) 
+
+          if (x === 0 || y === 0 || x === maxX || y === maxY) {
             console.log({x, y})
             tileSrc = tileSrc.replace(/\.jpeg$/, '.png');
           }
@@ -130,10 +132,11 @@ function MapInner({ L, deepzoom }: IProps) {
     return undefined;
   }, [fileURI, deepzoom, defaultZoom, width, height]);
 
+  const containerStyle = useMemo(() => (width && height ? { width: width, height: height } : {}), [width, height]);
   return (
     <div>
-      <div ref={root}>
-        <div ref={container} style={{ width: 400, height: 400 }}></div>
+      <div className={styles.root} ref={root}>
+        <div ref={container} style={containerStyle}></div>
       </div>
     </div>
   );
@@ -142,7 +145,7 @@ function MapInner({ L, deepzoom }: IProps) {
 function Map(props: any) {
   const L = useLeaflet();
   return (
-    <div className={styles.root}>
+    <div>
       {L ? <MapInner L={L} deepzoom={deepzoom} /> : null}
     </div>
   );
