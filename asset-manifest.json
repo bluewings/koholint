@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/koholint/static/css/main.af204476.chunk.css",
+    "main.js": "/koholint/static/js/main.8b35725c.chunk.js",
+    "main.js.map": "/koholint/static/js/main.8b35725c.chunk.js.map",
+    "runtime-main.js": "/koholint/static/js/runtime-main.01dcafde.js",
+    "runtime-main.js.map": "/koholint/static/js/runtime-main.01dcafde.js.map",
+    "static/css/2.0624914a.chunk.css": "/koholint/static/css/2.0624914a.chunk.css",
+    "static/js/2.e5de3fdc.chunk.js": "/koholint/static/js/2.e5de3fdc.chunk.js",
+    "static/js/2.e5de3fdc.chunk.js.map": "/koholint/static/js/2.e5de3fdc.chunk.js.map",
+    "index.html": "/koholint/index.html",
+    "precache-manifest.05a9baea69583bcbe197d26deeee1a1f.js": "/koholint/precache-manifest.05a9baea69583bcbe197d26deeee1a1f.js",
+    "service-worker.js": "/koholint/service-worker.js",
+    "static/css/2.0624914a.chunk.css.map": "/koholint/static/css/2.0624914a.chunk.css.map",
+    "static/css/main.af204476.chunk.css.map": "/koholint/static/css/main.af204476.chunk.css.map"
+  }
+}
