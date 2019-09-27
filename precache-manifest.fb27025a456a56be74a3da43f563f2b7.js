@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "51dc6d4a17fb8dfa1dce874df8e643a2",
+    "revision": "ef2e8f14eda08d6b5379b1bc6f426d4c",
     "url": "/koholint/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/koholint/static/css/2.0624914a.chunk.css"
   },
   {
-    "revision": "b99063ee24089cf1fb5c",
+    "revision": "a7b38f9409f8fe2a62e2",
     "url": "/koholint/static/css/main.af204476.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/koholint/static/js/2.e5de3fdc.chunk.js"
   },
   {
-    "revision": "b99063ee24089cf1fb5c",
-    "url": "/koholint/static/js/main.8b35725c.chunk.js"
+    "revision": "a7b38f9409f8fe2a62e2",
+    "url": "/koholint/static/js/main.12a7392b.chunk.js"
   },
   {
     "revision": "51f7a2194fe9b0dea6f1",
