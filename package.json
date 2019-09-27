@@ -1,0 +1,47 @@
+{
+  "name": "koholint",
+  "version": "0.1.0",
+  "homepage": "https://bluewings.github.io/koholint/",
+  "private": true,
+  "dependencies": {
+    "@types/jest": "^24.0.18",
+    "@types/node": "^12.7.8",
+    "@types/react": "^16.9.3",
+    "@types/react-dom": "^16.9.1",
+    "bootstrap": "^4.3.1",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-github-corner": "^2.3.0",
+    "typescript": "^3.6.3"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.1.1",
+    "node-sass": "^4.12.0",
+    "prettier": "^1.18.2",
+    "react-scripts": "3.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "format": "prettier --write '{scripts,src}/**/*.{js,jsx,ts,tsx,scss}'",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
