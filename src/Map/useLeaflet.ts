@@ -17,7 +17,8 @@ export type Leaflet = {
   TileLayer: any;
 };
 
-const LEAFLET_URI = 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js';
+const LEAFLET_URI =
+  'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js';
 
 const loadScript = (src: string) => {
   return new Promise((resolve, reject) => {
@@ -26,7 +27,8 @@ const loadScript = (src: string) => {
     script.type = 'text/javascript';
     script.src = src;
     script.onload = resolve;
-    script.onerror = () => reject(new Error(`failed to load: ${src.split('/').pop()}`));
+    script.onerror = () =>
+      reject(new Error(`failed to load: ${src.split('/').pop()}`));
     head.appendChild(script);
   });
 };
