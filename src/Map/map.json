@@ -1,18 +1,19 @@
 {
   "format": "dz",
-  "width": 2805,
-  "height": 1600,
+  "width": 5610,
+  "height": 3200,
   "channels": 4,
   "premultiplied": false,
-  "id": "koholint",
-  "tileImg": "koholint/tiles/{z}/{x}_{y}.jpeg",
+  "id": "koholint-2x",
+  "tileImg": "koholint-2x/tiles/{z}/{x}_{y}.jpeg",
   "minZoom": 8,
-  "maxZoom": 12,
+  "maxZoom": 13,
   "tileSizes": {
     "8": [ 0, 0 ],
     "9": [ 1, 0 ],
     "10": [ 2, 1 ],
     "11": [ 5, 3 ],
-    "12": [ 10, 6 ]
+    "12": [ 10, 6 ],
+    "13": [ 21, 12 ]
   }
 }
