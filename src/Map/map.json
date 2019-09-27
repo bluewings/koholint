@@ -1,0 +1,18 @@
+{
+  "format": "dz",
+  "width": 2805,
+  "height": 1600,
+  "channels": 4,
+  "premultiplied": false,
+  "id": "koholint",
+  "tileImg": "koholint/tiles/{z}/{x}_{y}.jpeg",
+  "minZoom": 8,
+  "maxZoom": 12,
+  "tileSizes": {
+    "8": [ 0, 0 ],
+    "9": [ 1, 0 ],
+    "10": [ 2, 1 ],
+    "11": [ 5, 3 ],
+    "12": [ 10, 6 ]
+  }
+}
