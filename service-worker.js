@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/koholint/precache-manifest.4638e647e1f200efcafe13442de4e0b9.js"
+  "/koholint/precache-manifest.fe9fb9798d46610fa227bfa118b63dfc.js"
 );
 
 self.addEventListener('message', (event) => {
