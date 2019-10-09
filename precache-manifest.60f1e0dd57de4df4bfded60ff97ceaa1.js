@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a6d78e563770587b90d67a9144f133ac",
+    "revision": "c6370c195c5a5a8384c530a15aa9f302",
     "url": "/koholint/index.html"
   },
   {
